@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-flow: column;
     background-color: #f7fafc;
-
 }
 
 html {
@@ -47,7 +46,8 @@ main {
 content {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 75%;
+    color: #414141;
 }
 
 #search-bar {
@@ -82,4 +82,33 @@ button {
 #lookup {
     background-color: #38b2ac;
     border: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px;
+
+}
+
+th {
+    background-color: white;
+}
+
+tr {
+    height: 50px;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: cornflowerblue;
 }
